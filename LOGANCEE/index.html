@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>LOGANCEE</title>
+      <!--For Makink all browswes rendier with CSS3-->
+      <link href="CSS/normalize.css" rel="stylesheet">
+    <!--Font awosame-->
+      <link  href="CSS/font-awesome.min.css"rel="stylesheet">
+    <!-- Bootstrap -->
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="JS/html5shiv.js"></script>
+      <script src="JS/respond.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   <!--============================>header
+   -->
+   <header>
+       <div class="navbar navbar-inverse navbar-twitch" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <span class="small-nav"> <span class="logo"> LO </span> </span>
+                <span class="full-nav"> Logancee </span>
+            </a>
+        </div>
+        <div class="">
+            <ul class="nav navbar-nav">
+                <li class="">
+                    <a href="#">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title="Home"> 
+                            <span class="glyphicon glyphicon-home"></span> 
+                        </span>
+                        <span class="full-nav">
+                             HOME
+                            <i class="fa fa-angle-right"></i> 
+                        </span>
+                    </a>
+                </li>
+                <li><!--All products-->
+                    <a href="#about-us">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title="All products"> 
+                            <span class="fa fa-th-large"></span> 
+                        </span>
+                        <span class="full-nav"> All products 
+                        <i class="fa fa-angle-right"></i>
+                        </span>
+                    </a>
+                </li>
+                <li><!-Contact Us-->
+                    <a href="#contact-us">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title="Contact Us"> 
+                            <span class="glyphicon glyphicon-comment"></span> 
+                        </span>
+                        <span class="full-nav">Contact Us<i class="fa fa-angle-right"></i> </span>
+                    </a>
+                </li>
+                   <li><!--FEATURES-->
+                    <a href="#about-us">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title=" FEATURES"> 
+                            <span class="fa fa-bar-chart"></span> 
+                        </span>
+                        <span class="full-nav"> FEATURES
+                        <i class="fa fa-angle-right"></i>
+                        </span>
+                    </a>
+                </li>
+                
+                   <li><!--BLOG-->
+                    <a href="#about-us">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title="About Us"> 
+                            <span class="fa fa-users"></span> 
+                        </span>
+                        <span class="full-nav">About Us
+                        <i class="fa fa-angle-right"></i>
+                        </span>
+                    </a>
+                </li>
+                
+                   <li><!-- Best seller-->
+                    <a href="#about-us">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title="Best seller"> 
+                            <span class="fa fa-line-chart"></span> 
+                        </span>
+                        <span class="full-nav"> Best seller
+                        <i class="fa fa-angle-right"></i>
+                        </span>
+                    </a>
+                </li>
+                   <li><!--Delivery Service-->
+                    <a href="#about-us">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title="Delivery Service"> 
+                            <span class="fa  fa-truck"></span> 
+                        </span>
+                        <span class="full-nav"> Delivery Service
+                        <i class="fa fa-angle-right"></i>
+                        </span>
+                    </a>
+                </li>
+<li style="margin-left:14px" class="hidden-xs">
+    <!--Dropdown-->
+
+    
+    <div class="dropdown full-nav">
+        <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <img src="IMG/_ICONS/if_United_Kingdom_2361499.png">
+            English <span class="caret"></span> </button>
+        <ul   class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+        </ul>
+          <button class="btn btn-default dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">USD <span class="caret"></span> </button>
+        <ul class="dropdown-menu" >
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+            <li><a href="#">link</a></li>
+        </ul>
+    </div>
+</li>
+            <li><!--search-->
+                    <a href="#search">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title="About Us"> 
+                            <span class="fa fa-search"></span> 
+                        </span>
+                        <span class="full-nav"> 
+                               <input type="search" class="btn btn-default dropdown-toggle search" type="button" id="search" placeholder="search..."> <i class="fa fa-search"></i> 
+                        </span>
+                    </a>
+                </li>
+                <li><!--shooping bag-->
+                    <a href="#shopping-bag">
+                        <span class="small-nav" data-toggle="tooltip" data-placement="right" title=" shopping-bag"> 
+                            <span class="fa  fa-shopping-bag"></span> 
+                        </span>
+                        <span class="full-nav"> 
+                               <button class="btn btn-default dropdown-toggle  shopping-bag" type="button" id=" shopping-bag" ><span class="fa fa-lg fa-shopping-bag"></span>0Item-$0.00 <i class="fa fa-angle-right"></i> </button>
+                        </span>
+                    </a>
+                </li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+<button type="button" class="btn btn-default btn-xs navbar-twitch-toggle">
+    <span class="glyphicon glyphicon-chevron-right nav-open"></span>        
+    <span class="glyphicon glyphicon-chevron-left nav-close"></span>
+</button>
+ </header>
+<!--BannerSection-->
+<section>
+<div id="banner" class="banner">
+  <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+ 
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item ">
+      <img src="IMG/__HeaderIMG/01.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+      <!--item-->
+    <div class="item">
+      <img src="IMG/__HeaderIMG/02.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div><!--carousel-caption-->
+    </div><!--item-->
+        <div class="item">
+      <img src="IMG/__HeaderIMG/03.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div><!--carousel-caption-->
+    </div><!--item-->
+      
+        <div class="item">
+      <img src="IMG/__HeaderIMG/05.jpg" alt="...">
+      <div class="carousel-caption">
+        ...
+      </div><!--carousel-caption-->
+    </div><!--item-->
+        <div class="item active">
+      <img src="IMG/__HeaderIMG/06.jpg " alt="...">
+      <div class="carousel-caption">
+        ...
+      </div><!--carousel-caption-->
+    </div><!--item-->
+      
+    ...
+  </div><!--carousel-inner-->
+
+ 
+</div><!--carousel-example-generic-->
+
+    </div><!--banner-->
+
+<!-- items -->
+    
+       <div class="container-fluid">
+          <div class="row">
+                 <div class="heading text-center">
+                   <h3 class="lead bold ">CREAT A DIFFRENT WITH HIPSTER STYLE</h3>
+                   <P class="bold">
+                   check out the best offers to stay in trend with logancee
+                
+                   </P>
+               </div><!--HEADING-->
+             <div class="content " id="content">
+        <div class="flex">         
+       <div class="col col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+           <div class="img"><a href="#"><img src="IMG/__items/01.jpg"></a></div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+             <p class="price bold">$54.05</p>
+             <button class="btn btn-default uppercase  active bold" role="button"><a href="#">Add to chart</a></button>
+             <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>
+<div class="col col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+  <div class="img"><a href="#"><img src="IMG/__items/01.jpg"></a></div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+             <p class="price bold">$54.05</p>
+             <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+             <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>
+<div class="col col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+          <div class="img"><a href="#"><img src="IMG/__items/01.jpg"></a></div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+             <p class="price bold">$54.05</p>
+             <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+             <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>   
+                   <div class=" col col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+          <div class="img"><a href="#"><img src="IMG/__items/01.jpg"></a></div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+             <p class="price bold">$54.05<span class="mark red">99$</span></p>
+             <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+             <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+            
+        </div>
+    </div>
+</div> 
+              </div><!--flex-->
+                  <div class="flex">   
+     <div class="col col-sm-6 col-md-4 col-lg-3 mix T-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+            <div class="img">
+                <a href="#"><img src="IMG/__items/09.jpg"></a>
+            </div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+            <p class="price bold">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg  fa-pie-chart"></i></a></button>
+        </div>
+    </div>
+</div>  
+                     <div class=" col col-sm-6 col-md-4 col-lg-3 mix shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+            <div class="img">
+                <a href="#"><img src="IMG/__items/09.jpg"></a>
+            </div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+            <p class="price bold">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg  fa-pie-chart"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col col-sm-6 col-md-4 col-lg-3 mix shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+            <div class="img">
+                <a href="#"><img src="IMG/__items/09.jpg"></a>
+            </div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+            <p class="price bold">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg  fa-pie-chart"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col col-sm-6 col-md-4 col-lg-3 mix shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+            <div class="img">
+                <a href="#"><img src="IMG/__items/09.jpg"></a>
+            </div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+            <p class="price bold">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg  fa-pie-chart fa-pie-chart"></i></a></button>
+        </div>
+    </div>
+</div> 
+                 </div> 
+<!--flex-->
+                  <div class="flex">   
+                     <div class=" col col-sm-6 col-md-4 col-lg-3 mix shirt">
+    <div class="thumbnail">
+        <div class="caption text-center bold">
+            <div class="img">
+                <a href="#"><img src="IMG/__items/10.jpg"></a>
+            </div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+            <p class="price bold">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col col-sm-6 col-md-4 col-lg-3 mix t-shirt">
+    <div class="thumbnail">
+        <div class="caption text-center ">
+            <div class="img">
+                <a href="#"><img src="IMG/__items/10.jpg"></a>
+            </div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+            <p class="price bold">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class=" col col-sm-6 col-md-4 col-lg-3 mix">
+    <div class="thumbnail">
+        <div class="caption text-center ">
+            <div class="img">
+                <a href="#"><img src="IMG/__items/10.jpg"></a>
+            </div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+            <p class="price bold">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                     <div class="col col-sm-6 col-md-4 col-lg-3 mix">
+    <div class="thumbnail">
+        <div class="caption text-center ">
+            <div class="img">
+                <a href="#"><img src="IMG/__items/10.jpg"></a>
+            </div>
+            <h4 class="lead bold">SAMURAL T-SHIRT</h4>
+            <p class="price bold">$54.05<span class="mark">99$</span></p>
+            <button class="btn btn-default uppercase bold" role="button"><a href="#">Add to chart</a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-heart-o"></i></a></button>
+            <button class="btn btn-default uppercase" role="button"><a href="#"><i class="fa fa-fw fa-lg fa-eye"></i></a></button>
+        </div>
+    </div>
+</div>    
+                 </div><!--flex--> 
+                 
+               </div><!--content-->
+           </div>
+          </div>
+      </section>
+<!--footer-->
+       <footer class="Footer">
+     <div class="container">
+       <div class="row text-center">
+         <div class="h1 "> loganceee</div>
+          <div class="_SocialMedia capitalize">
+              <p><a href="https://www.facebook.com/bakr.mahmoud.927">Facebook</a></p>
+              <p class="_active"><a href="https://twitter.com/abubakr28355335">Twitter</a></p>
+              <p><a href="">PINTREST</a></p>
+              <p><a href="https://plus.google.com/104931590254286085213">GOOGLE+</a></p>
+              <p><a href="">INSTAGRAM</a></p>
+          </div><!--socialmedia-->
+          <div class="_copyWrite">
+            <p> &copy; 2015 <span class="bold">LOGANCEE</span> .All Right Reserved <br> Coding By <span class="bold"><a href="https://www.linkedin.com/in/abubakr-mahmoud-074956106/">Abubakr</a></span>
+          </div><!--copywrite-->
+       </div><!--row-->
+     </div><!--container-->
+   </footer> <!--footer-->
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="JS/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="JS/bootstrap.js"></script>
+      <!---our script-->
+      <script src="JS/script.js"></script>
+  </body>
+</html>
